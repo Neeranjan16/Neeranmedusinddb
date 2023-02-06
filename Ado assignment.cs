@@ -14,7 +14,7 @@ namespace ConsoleAppassignment5._1
 
         static void Main(string[] args)
         {
-            Insert_values();
+            selectdata();
             Console.Read();
         }
         static SqlConnection GetConnection()
@@ -26,7 +26,7 @@ namespace ConsoleAppassignment5._1
         }
 
 
-        static void Insert_values()
+        static void selectdata()
         {
             conn = GetConnection();
 
