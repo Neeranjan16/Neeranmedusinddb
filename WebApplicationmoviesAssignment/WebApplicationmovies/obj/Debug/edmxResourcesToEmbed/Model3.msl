@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="neemedusindDBModel2StoreContainer" CdmEntityContainer="neemedusindDBEntities2">
+    <EntitySetMapping Name="NeeranjMovies">
+      <EntityTypeMapping TypeName="neemedusindDBModel2.NeeranjMovie">
+        <MappingFragment StoreEntitySet="NeeranjMovie">
+          <ScalarProperty Name="MovID" ColumnName="MovID" />
+          <ScalarProperty Name="MovName" ColumnName="MovName" />
+          <ScalarProperty Name="RealaseDate" ColumnName="RealaseDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
